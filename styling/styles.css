@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+svg {
+    width: 80vw;
+    height: 60vw;
+    margin: 10vw;
+    background-color: #f5f5f5;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.legend {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.line {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.LegendEstimatedCost {
+    fill: #a6cee3;
+}
+
+.LegendActualCost {
+    fill: #1f78b4;
+}
+
+.LegendSoldPrice {
+    fill: #b2df8a;
+}
+
+.LegendMarginOfProfit {
+    fill: #33a02c;
+}
